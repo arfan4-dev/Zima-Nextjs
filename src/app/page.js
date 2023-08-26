@@ -19,6 +19,7 @@ import Ninteenth from "./component/Group19/ninteenth";
 import Twenty from "./component/Group20/twenty";
 import TwentyOne from "./component/Group21/twentyOne";
 import TwentyTwo from "./component/Group22/TwentyTwo";
+import Seventeen from "./component/Group17/Seventeen";
 export default function Home() {
   return (
     <div className='overflow-hidden'>
@@ -38,6 +39,7 @@ export default function Home() {
        <GroupFourteenth/>
        <Fifteen/>
        <Sixteen/>
+       <Seventeen/>
        <Eighteen/>
        <Ninteenth/>
        <Twenty/>

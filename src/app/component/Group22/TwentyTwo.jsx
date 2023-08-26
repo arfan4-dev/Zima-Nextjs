@@ -3,17 +3,17 @@ import Image from 'next/image'
 import './style.css'
 const TwentyTwo = () => {
   return (
-    <div className='flex justify-around mt-10 bg-slate-50  sx:block sm:block md:flex  '>
+    <div className='flex justify-around mt-10 bg-slate-50  sx:block sm:block md:flex  ' id='parent'>
         
 {/* First Div */}
 <div className='flex flex-col justify-between items-start ' id='first'>
 
-  <div>
+  <div id='firstA'>
     <p>ENQUIRIES</p>
     <p>hello@zimogroup.org</p>
   </div>
 
-  <div>
+  <div id='firstB'>
     <p  className='text-6xl'>ZIMO GROUP</p>
     <Image src='/images/15.png' alt='' width={200} height={200}/> 
     <p>ZIMO GROUP LIMITED</p>
@@ -30,7 +30,7 @@ const TwentyTwo = () => {
 </div>
 
 {/* second */}
-<div id='second'>
+<div id='second'        >
     <p>Contact</p>
 </div>
 

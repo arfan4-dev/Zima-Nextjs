@@ -1,12 +1,13 @@
+import Image from 'next/image'
 import React from 'react'
-
+import './style.css'
 const GroupTwo = () => {
   return (
     <div>
-        <div className='flex justify-start gap-64 text-white items-center bg-black h-[500px] mt-5 xs:block xs:text-center sm:block sm:text-center md:block md:text-center lg:flex '>
-           <div className=''>
-           <p>ZIMO</p>
-            <p className='text-center'>We are the global platform. <br/> <span>Services in over one hundred and twenty countries.</span></p>
+        <div >
+           <div id='first' className='flex justify-start gap-96 bg-black text-white items-center h-[500px] mt-5 sm:justify-around md:justify-around'>
+           <Image id='firstA' src='/images/19White.png'  alt='Zimo logo' width={100} height={150} />
+            <p id='firstB' className='text-center'>We are the global platform. <br/> <span>Services in over one hundred and twenty countries.</span></p>
 
            </div>
            

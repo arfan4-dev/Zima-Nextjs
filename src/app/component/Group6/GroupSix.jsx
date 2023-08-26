@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-
+import './style.css'
 const GroupSix = () => {
   return (
     <div className='overflow-hidden'>
@@ -12,6 +12,7 @@ const GroupSix = () => {
         </div>
 
         <Image
+        id='img'
           src='/images/carChild.png'
           alt='picture'
           width={400}

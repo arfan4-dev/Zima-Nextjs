@@ -1,0 +1,12 @@
+
+@media (min-width: 446px) and (max-width: 768px) {
+     #twentyB {
+      display: block;
+      text-align: left;
+    }
+    #twentyA #twentyB{
+      text-align: justify;
+
+    }
+  }
+  
